@@ -23,7 +23,7 @@ def merge_csv(dir):
     return pd.concat(all_dfs,ignore_index=True)
 
 # Run the function and merge the dfs
-directory = os.path.join('pr2_32','data')
+directory = os.path.join('pr2_32','results')
 merged_df = merge_csv(directory)
 
 # Save the merged dataframe to a new CSV file
