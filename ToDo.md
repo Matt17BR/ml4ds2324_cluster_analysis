@@ -1,0 +1,5 @@
+- Explore data in a meaningful way
+- Define research questions
+- Identify data variation with respect to the median value
+- Use k-means and DBSCAN techniques to identify patterns
+- Define labels (for each cluster???) if possible
