@@ -1,1 +1,1 @@
-Power loss of rotary ups in kilowat
+- Power loss of rotary UPS in kilowatt (PERD_GR)
