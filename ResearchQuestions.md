@@ -1,0 +1,3 @@
+- Is there some sort of variation that depends on the time of year?
+- Can variables be clustered together using k-means/DBSCAN?
+- Can we detect any anomalies or unusual patterns in the data that might indicate potential issues or inefficiencies?
