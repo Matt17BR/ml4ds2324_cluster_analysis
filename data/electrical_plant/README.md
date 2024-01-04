@@ -7,4 +7,4 @@ Each transformer dataset is for the following variables:
 - neutral current (TRx_Corr_n)
 - cos phi (TRx_cosFi)
 - apparent power (TRx_Pot_att)
-- sum of the (apparent??) power of each transformer (POT_TR_SOMMA)
+- sum of the power consumption (POT_TR_SOMMA)
