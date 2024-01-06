@@ -3,3 +3,4 @@
 - Identify data variation with respect to the median value
 - Use k-means and DBSCAN techniques to identify patterns
 - Define labels (for each cluster???) if possible
+- Does it make sense to maybe take hourly means instead of daily means?
