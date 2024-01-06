@@ -4,3 +4,6 @@
 - Use k-means and DBSCAN techniques to identify patterns
 - Define labels (for each cluster???) if possible
 - Does it make sense to maybe take hourly means instead of daily means?
+- Make tables prettier (consider e.g. making correlation matrix a heatmap plot)
+- Suppress messages/warnings
+- Does it even make sense to make the pairs plot like that?
