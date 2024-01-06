@@ -6,4 +6,4 @@
 - Does it make sense to maybe take hourly means instead of daily means?
 - Make tables prettier (consider e.g. making correlation matrix a heatmap plot)
 - Suppress messages/warnings
-- Does it even make sense to make the pairs plot like that?
+- Doesn't make sense to have the pairs plot like that -> use factor/pca space plots instead
