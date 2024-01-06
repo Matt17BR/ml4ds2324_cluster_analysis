@@ -1,9 +1,5 @@
 - Explore data in a meaningful way
 - Define research questions
 - Identify data variation with respect to the median value
-- Use k-means and DBSCAN techniques to identify patterns
 - Define labels (for each cluster???) if possible
-- Does it make sense to maybe take hourly means instead of daily means?
-- Make tables prettier (consider e.g. making correlation matrix a heatmap plot)
-- Suppress messages/warnings
-- Doesn't make sense to have the pairs plot like that -> use factor/pca space plots instead
+- Make the clusters timeline plot prettier
