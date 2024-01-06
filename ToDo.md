@@ -2,4 +2,3 @@
 - Define research questions
 - Identify data variation with respect to the median value
 - Define labels (for each cluster???) if possible
-- Make the clusters timeline plot prettier
