@@ -1,4 +1,3 @@
 - Explore data in a meaningful way
 - Define research questions
 - Identify data variation with respect to the median value
-- Define labels (for each cluster???) if possible
