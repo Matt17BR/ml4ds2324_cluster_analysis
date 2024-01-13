@@ -1,4 +1,3 @@
-- Explore data in a meaningful way
 - Define research questions
-- Identify data variation with respect to the median value
 - Add comments to all notebooks properly
+- Update README.md files
