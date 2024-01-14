@@ -1,4 +1,4 @@
-# pr2_32
+# Pr2_32
 
 ## Title: Assessing monitoring data for the electrical plant of a data center
 
@@ -10,5 +10,3 @@ Once explored data,
 * identify data variation with respect to the median value
 * use k-means and DBSCAN techniques to identify patterns
 * define labels if possible
-
-Contact professor for any questions.
