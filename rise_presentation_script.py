@@ -2,7 +2,7 @@ import nbformat
 import os
 
 # Load the notebook
-notebook_path = os.path.join('scripts','merged_2_32.ipynb')
+notebook_path = os.path.join('presentation','merged_2_32.ipynb')
 with open(notebook_path, 'r') as f:
     nb = nbformat.read(f, as_version=4)
 
@@ -30,6 +30,6 @@ for cell in nb['cells']:
         cell['metadata']['slideshow']['slide_type'] = slide_type
 
 # Save the modified notebook
-modified_notebook_path = os.path.join('scripts','merged_2_32_slides.ipynb')
+modified_notebook_path = os.path.join('presentation','merged_2_32_slides.ipynb')
 with open(modified_notebook_path, 'w') as f:
     nbformat.write(nb, f)
