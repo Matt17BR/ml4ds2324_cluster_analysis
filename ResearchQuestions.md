@@ -1,4 +1,0 @@
-- Is there some sort of variation that depends on the time of year?
-- Can days be clustered together using k-means/DBSCAN?
-- Can we detect any anomalies or unusual patterns in the data that might indicate potential issues or inefficiencies?
-- How can we accurately label clusters returned by means of K-Means and DBSCAN clustering?
