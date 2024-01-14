@@ -20,10 +20,10 @@
     - We decided to do use violin plots for the median comparison and plotted each variable separately. Violin plots show the full distribution of the data, apart from just the median and the IQR range. We note that some medians are positioned at the center of the violins, suggesting symmetric data distributions, such as for TR1_Corr_2 and TR2_Corr_1. Others appear skewed, with medians located towards one end, as seen in TR3_Corr_N and POT_TR_SOMMA, indicating asymmetric distributions. The width of the violins also varies, showing different levels of variability.
 
 8. Does it make sense to aggregate the raw data for analysis' purposes?
-    -
+    - Since the measurements for each variable are taken at different minutes, it makes sense to aggregate data hourly or daily. We aggregated the data both ways and used the resulting datasets for different purposes. The daily data is more smoothed out, so we used it to find patterns when plotting. The hourly data provides more data points, which is useful for purely numerical/analytical tasks.
 
 9. Can correlation heatmaps provide any insight in the variables' structure?
-    -
+    - Yes, the correlation heatmaps helped us confirm that some variables showed high collinearity, which meant that we were best off aggregating them in a sensible way, or removing them altogether. If a variable is also not highly correlated with others, that provides insight in which of the variables account for more variance in the dataset and which of them are candidates for finding anomalies in the dataset. However, correlation heatmaps in our case can also be misleading because of the role of overlap in function between the TR2 and TR3 transformers.
 
 10. How can we pick the number of clusters to use for cluster analysis?
-    -
+    - The way we decided to perform cluster analysis was to pick the most optimal clusters number for the k-means method, and to find the 2 main hyper-parameters of the DBSCAN method in such a way that the Average Silhouette Width would be maximized for the number of clusters resulting from the choice of parameters. This may not be optimal, as the result that is produced is such that the cluster allocations for k-means (with 3 clusters) and DBSCAN (with 2 clusters and 1 unallocated cluster) are really similar and do not provide a very deep insight in the different mechanisms that allow k-means and DBSCAN to work.
