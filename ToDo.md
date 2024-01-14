@@ -1,3 +1,2 @@
 - Define research questions
-- Add comments to all notebooks properly
 - Update README.md files
